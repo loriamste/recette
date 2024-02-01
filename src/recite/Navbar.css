@@ -1,0 +1,126 @@
+
+
+.navbar-container {
+  top: 0;
+  left: 0;
+  padding: 10px; 
+  z-index: 1000; 
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .nav-link {
+    text-decoration: underline;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+   
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(36, 120, 68);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+   
+  }
+  
+ 
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-label {
+    margin-right: 1px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid rgb(36, 120, 68);
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 40%;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: rgb(36, 120, 68);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 10%;
+  }
+  
+  .search-button:hover {
+    background-color:rgb(32, 101, 58);
+  }
+  .search-link {
+    display: inline-block;
+   
+    
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  
+  .search-link:hover {
+    background-color:rgb(32, 101, 58);
+  }
+  .nav-link-f {
+    padding: 10px 20px;
+    background-color: rgb(36, 120, 68);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 6%;
+  }
+
+  .nav-link-f:hover{
+    background-color:rgb(32, 101, 58);
+  }
+  
+  .custom-dropdown {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .initial-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .account-icon {
+    margin-right: 5px;
+  }
+  
+  .dropdown-list {
+    display: block; /* ou display: flex; en fonction de vos besoins */
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    border-radius: 10px;
+    transform: translateX(-70%);
+  }
+  
+  

@@ -1,0 +1,43 @@
+.detailsContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .detailsTitle {
+    font-size: 24px;
+    color: #4caf50;
+    margin-bottom: 16px;
+  }
+  
+  .detailsButton {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .detailsButton:hover {
+    background-color: #45a049;
+  }
+  
+  .detailsIngredients {
+    margin-bottom: 16px;
+  }
+  
+  .detailsInstructions {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  
+  .detailsLink {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .detailsLink:hover {
+    text-decoration: underline;
+  }
+  
